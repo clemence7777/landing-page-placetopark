@@ -74,6 +74,62 @@ img {
   margin: auto;
 }
 
+.restaurant {
+        text-align: center;
+     width: 250px;
+        background: white;
+        box-shadow: 0 0 16px rgba(0,0,0,0.1);
+        border-radius: 4px;
+        padding: 10px;
+       
+    }
+
+    .restaurant img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .card {
+        display: grid;
+        border-radius: 4px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+        margin-bottom: 20px;
+    }
+    .container {
+      width: 800px;
+        margin: auto;
+    }
+
+.restaurant {
+        text-align: center;
+     width: 250px;
+        background: white;
+        box-shadow: 0 0 16px rgba(0,0,0,0.1);
+        border-radius: 4px;
+        padding: 10px;
+       
+    }
+
+    .restaurant img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .card {
+        display: grid;
+        border-radius: 4px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+        margin-bottom: 20px;
+    }
+    .container {
+      width: 800px;
+        margin: auto;
+    }
+
 .features{
   background-color: #d3d3d3 ;
   padding: 20px 10px;
@@ -82,6 +138,24 @@ img {
 .pricing {
 padding: 20px 10px;
 background-color: #d3d3d3;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #FE6D73;
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #7699D4;
 }
 
 .hero{
