@@ -1,0 +1,120 @@
+body {
+  background-color: #f8f8f8;
+  font-family: calibri, sans-serif;
+  color: #333;
+  text-align: center
+}
+
+nav {
+  background-color: #008080;
+  height: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 60px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+nav a:hover {
+  background-color: #006666;
+}
+
+
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 60px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #006666;
+}
+
+img {
+  width: 10%;
+  display: block; 
+  margin: auto;
+}
+
+.features{
+  background-color: #d3d3d3 ;
+  padding: 20px 10px;
+}
+
+.pricing {
+padding: 20px 10px;
+background-color: #d3d3d3;
+}
+
+.hero{
+  background-image: url(images/carte.jpg);
+  padding: 90px 180px;
+}
+.contact {
+  padding: 20px 10px;
+  background-color: #d3d3d3;
+}
+.footer{
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 10px;
+}
+header
+  div{
+background: #d3d3d3;
+text-align: center;
+}
+img {
+width: 120px;
+height: 120px;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+}
+}
